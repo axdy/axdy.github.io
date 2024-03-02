@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Glasgow, Scotland, UK</p>
+    <p>Glasgow, Scotland</p>
 
 news: false # includes a list of news items
 latest_posts: false # includes a list of the newest posts

@@ -1,6 +1,6 @@
 ---
 ---
-@INPROCEEDINGS{10198198,
+@INPROCEEDINGS{maclellan2023,
   bibtex_show={true},
   author={Maclellan, Andrew and Crockett, Louise H. and Stewart, Robert W.},
   booktitle={2023 21st IEEE Interregional NEWCAS Conference (NEWCAS)}, 
@@ -9,11 +9,15 @@
   volume={},
   number={},
   pages={1-5},
+  abstract={This paper presents a novel Convolutional Neural Network (CNN) FPGA architecture designed to perform processing of radio data in a streaming manner without interruption. The proposed architecture is evaluated for radio modulation classification tasks implemented on an AMD RFSoC 2x2 development board and operating in real-time. The proposed architecture leverages optimisation such as the General Matrix-to-Matrix (GEMM) transform, on-chip weights, fixed-point arithmetic, and efficient utilisation of FPGA resources to achieve constant processing of a stream of samples. The performance of the proposed architecture is demonstrated through accuracy results obtained during live modulation classification, while operating at a sampling frequency of 128 MHz before decimation. The proposed architecture demonstrates promising results for real-time, time-critical CNN applications.},
   keywords={Wireless communication;Transforms;Receivers;Throughput;Real-time systems;System-on-chip;Convolutional neural networks;deep learning;wireless communications;FPGA;RFSoC;PYNQ;modulation classification.},
-  doi={10.1109/NEWCAS57931.2023.10198198}}
+  doi={10.1109/NEWCAS57931.2023.10198198},
+  ISSN={2474-9672},
+  month={June},}
 
 
-@article{8892030,
+
+@INPROCEEDINGS{maclellan2019,
   bibtex_show={true},
   author={Maclellan, Andrew and McLaughlin, Lewis and Crockett, Louise and Stewart, Robert},
   booktitle={2019 29th International Conference on Field Programmable Logic and Applications (FPL)}, 
@@ -22,10 +26,12 @@
   volume={},
   number={},
   pages={246-247},
-  journal={2019 29th International Conference on Field Programmable Logic and Applications (FPL)},
+  abstract={Floating point Convolutional Neural Networks(CNNs) are computationally expensive and deeper networks can be impractical to deploy on FPGAs - consuming a large number of resources and power, as well as having lengthy development times. Previous work has shown that CNNs can be quantised heavily using fixed point arithmetic to combat this without significant loss in classification accuracy. We aim to quantize an existing CNN architecture for radio modulation classification to 2-bit weights and activations, while retaining a level of accuracy close to the original paper, for deployment on a Zynq System on Chip (SoC). To improve the development time for hardware synthesisable CNNs, we make use of MATLAB System Objects and HDL Coder. The PYNQ framework is presented as a practical means for accessing the functionality of the CNN. Our preliminary results show a high classification accuracy even with 2-bit weights and activations.},
   keywords={Field programmable gate arrays;Modulation;Matlab;Hardware design languages;Training;Biological neural networks;CNN;FPGA;quantised;modulation classification;radio;PYNQ;System Objects},
-  doi={10.1109/FPL.2019.00045}
-}
+  doi={10.1109/FPL.2019.00045},
+  ISSN={1946-1488},
+  month={Sep.},}
+
 
 @book{einstein1956investigations,
   bibtex_show={true},

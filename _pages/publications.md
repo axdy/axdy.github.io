@@ -8,12 +8,6 @@ nav_order: 4
 ---
 
 <!-- _pages/publications.md -->
-<div class="publications">
-
-{% bibliography %}
-
-</div>
-
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 <script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 \* denotes equal contribution
@@ -27,5 +21,8 @@ nav_order: 4
   {% bibliography -f papers -q @*[year={{y}}]* %}
   {% endif %}
 {% endfor %}
+</div>
 
+<div class="posters">
+  
 </div>

@@ -1,27 +1,24 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
+title: Hackathon 2019
+description: The 'Do you have the GUTS?' hackathon at the University of Glasgow.
 img: assets/img/12.jpg
 importance: 1
 category: hackathons
-related_publications: true
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# Do you have the GUTS? 2019
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Our team took part in the Glasgow University Computer Science department annual hackathon. The even is sponsored by many high profile tech companies including: Amazon AWS, JP Morgan, Morgan Stanley, Twilio, IBM, Verint, and Tennants :beer:.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+## IBM Challenge
+Develop a user application using the IBM Watson AI api.
 
-Hello World.
+## InTEXTicated
+We won **1st place** in the IBM challenge :star:! This would have been our 3rd year attending. Previously winning 1st place in previous years' challenges.
 
-Here is an image:
-![SwedishChef](/assets/img/project_1/The_Swedish_Chef.jpg)
+Our app uses custom **Machine Learning** models trained with our handmade datasets to assist the user with sending messages. Based on your relation with the recipient, the app analyses the sentiment behind the message before altering the user. The app implements IBM Watson, Twilio, Flask, and statistical machine learning through Linear Discriminant Analysis (LDA).
+
+## Code
+Our code for the 3 day event, can be found here: https://github.com/leoreppas/GUTS2019. Rich with quick edits and ascii art.
